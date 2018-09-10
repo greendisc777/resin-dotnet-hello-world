@@ -1,4 +1,4 @@
-FROM resin/armv8-fedora:25 AS build
+FROM resin/raspberrypi3-fedora:25 AS build
 
 # Using instructions from https://www.microsoft.com/net/core#linuxfedora
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc && \
